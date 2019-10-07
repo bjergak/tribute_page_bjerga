@@ -1,6 +1,7 @@
 nav{
 background-color: #2E282A;
 text-align: center;
+font-size: 20px;
 
 }
 body{
@@ -8,12 +9,14 @@ body{
   color: #555;
 }
 h1{
-  font-size: 16px;
+  font-family: "Sigmar One", serif;
+  font-size: 100px;
 }
 h2{
-  font-size:
+  font-size: 60px;
 }
 h1, h2{
   background-color: #3F3244;
   color: #FFF;
+
 }
