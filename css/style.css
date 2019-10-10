@@ -8,15 +8,24 @@ body{
   background-color: #A9ACA9;
   color: #555;
 }
-.larger{
+h1{
   font-family: "Sigmar One", serif;
   font-size: 100px;
 }
 h2{
   font-size: 60px;
 }
-.main-title h1, .main-title h2{
+.main-title h1, main, h2{
   background-color: #3F3244;
   color: #FFF;
 
+}
+#page {
+  display: grid;
+  grid-template-areas:
+  ""
+  "";
+}
+#page div {
+  grid-area: name;
 }
