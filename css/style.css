@@ -1,31 +1,68 @@
-nav{
-background-color: #2E282A;
-text-align: center;
-font-size: 20px;
-
-}
 body{
   background-color: #A9ACA9;
   color: #555;
+  padding: 2em;
+  min-width: 400px;
+}
+nav{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+background-color: #2E282A;
+text-align: center;
+font-size: 20px;
+}
+nav a{
+  padding: 1em;
+}
+
+.main-title, .headImg{
+  padding: 1em;
+  margin: 1em;
+
 }
 h1{
+  grid-area: head;
   font-family: "Sigmar One", serif;
-  font-size: 100px;
+  font-size: 2em;
 }
 h2{
-  font-size: 60px;
+  font-size: 1.5em;
 }
 .main-title h1, main, h2{
   background-color: #3F3244;
   color: #FFF;
+  text-align: center;
+  font-size: 1.2em;
+  padding-bottom: .25em;
 
 }
 #page {
+  padding: 0 2em 2em 2em;
   display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 1em;
+  text-align: center;
+  align-items: center;
   grid-template-areas:
-  ""
-  "";
+  "head head one one"
+  "pair1 pair1 info info"
+  "img1 text1 text2 img2"
+  "text3 img3 img3 text4"
+  ;
 }
 #page div {
   grid-area: name;
 }
+
+.main-title {grid-area: head;}
+.headImg {grid-area: one;}
+.pairCat {grid-area: pair1;}
+.infoHeader {grid-area: info;}
+.fluffyCatImg {grid-area: img1;}
+.fluffyCat {grid-area: text1;}
+.prunyLump {grid-area: text2;}
+.prune {grid-area: img2;}
+.adopt {grid-area: text3;}
+.adoptMe {grid-area: img3;}
+.lonely {grid-area: text4;}
