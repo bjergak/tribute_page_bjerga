@@ -19,28 +19,40 @@ nav a{
 .main-title, .headImg{
   padding: 1em;
   margin: 1em;
-
 }
-h1{
+.largerHead{
   font-family: "Sigmar One", serif;
   font-size: 2em;
+  text-align: left;
 }
-h2{
+.smallerHead{
   font-size: 1.5em;
 }
-.main-title h1, main, h2{
+.main-title{
   background-color: #3F3244;
   color: #FFF;
-  text-align: center;
+  text-align: left;
   font-size: 1.2em;
 /*  padding-bottom: .25em; */
-
 }
+
+.infoHeader, .pairCat{
+  padding: 1em;
+  margin: 1em;
+  text-align: left;
+}
+.pairCat{
+  min-width: 300px;
+  height: auto;
+  width: 100%;
+  margin: 1em;
+}
+
 #page {
   padding: 0 2em 2em 2em;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 1em;
+  grid-template-columns: 200px 1fr 1fr 200px;
+  grid-gap: 2em;
   text-align: center;
   align-items: center;
   grid-template-areas:
@@ -51,6 +63,8 @@ h2{
   ;
 }
 
+
+.main-title, .hea
 
 .main-title {grid-area: head;}
 .headImg {grid-area: one;}
@@ -63,3 +77,40 @@ h2{
 .adopt {grid-area: text3;}
 .adoptMe {grid-area: img3;}
 .lonely {grid-area: text4;}
+
+p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, legend, textarea, pre, iframe, hr,
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+ul {
+  list-style: none;
+}
+button, input, select, textarea {
+  margin: 0;
+}
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+img, embed, iframe, object, audio, video {
+  height: auto;
+  max-width: 100%;
+}
+iframe {
+  border: 0;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+td, th {
+  padding: 0;
+  text-align: left;
+}
