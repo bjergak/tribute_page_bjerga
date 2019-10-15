@@ -11,6 +11,7 @@ justify-content: space-around;
 background-color: #2E282A;
 text-align: center;
 font-size: 20px;
+font-family: 'Quicksand', sans-serif;
 }
 nav a{
   padding: 1em;
@@ -21,12 +22,15 @@ nav a{
   margin: 1em;
 }
 .largerHead{
-  font-family: "Sigmar One", serif;
-  font-size: 2em;
+  font-family: 'Coiny', cursive;
+  font-size: 3em;
+  line-height: 3em;
   text-align: left;
 }
 .smallerHead{
   font-size: 1.5em;
+  font-family: 'Coiny', cursive;
+
 }
 .main-title{
   background-color: #3F3244;
@@ -40,12 +44,23 @@ nav a{
   padding: 1em;
   margin: 1em;
   text-align: left;
+  font-family: 'Coiny', cursive;
+  line-height: 3em;
+}
+.hereWhy{
+  font-family: 'Quicksand', sans-serif;
 }
 .pairCat{
   min-width: 300px;
   height: auto;
   width: 100%;
   margin: 1em;
+}
+.fluffHead{
+  font-family: 'Coiny', cursive;
+}
+.pruneHead{
+  font-family: 'Coiny', cursive;
 }
 
 #page {
@@ -75,11 +90,11 @@ nav a{
 .adoptMe {grid-area: img3;}
 .lonely {grid-area: text4;}
 
-p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, legend, textarea, pre, iframe, hr,
-h1, h2, h3, h4, h5, h6 {
+/*h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
 }
+*/
 /*h1, h2, h3, h4, h5, h6 {
   font-size: 100%;
   font-weight: normal;
@@ -111,3 +126,5 @@ td, th {
   padding: 0;
   text-align: left;
 }
+/*font-family: 'Coiny', cursive;*/
+/*font-family: 'Quicksand', sans-serif;*/
