@@ -17,6 +17,7 @@ nav a{
   padding: 1em;
 }
 
+
 .main-title, .headImg{
   padding: 1em;
   margin: 1em;
@@ -24,11 +25,12 @@ nav a{
 .largerHead{
   font-family: 'Coiny', cursive;
   font-size: 3em;
-  line-height: 3em;
+  line-height: .75em;
   text-align: left;
 }
 .smallerHead{
   font-size: 1.5em;
+  line-height: .75em;
   font-family: 'Coiny', cursive;
 
 }
@@ -40,14 +42,34 @@ nav a{
 /*  padding-bottom: .25em; */
 }
 
-.infoHeader, .pairCat{
+.infoHeader{
+  padding: 0em 1em 1em 1em;
+  margin: 0 1em 1em 1em;
+  text-align: left;
+  line-height: 1.5em;
+  font-family: 'Coiny', cursive;
+
+}
+.pairCat{
   padding: 1em;
   margin: 1em;
   text-align: left;
+  line-height: 1.5em;
   font-family: 'Coiny', cursive;
-  line-height: 3em;
+
+}
+.infoLarge{
+  font-size: 2.25em;
+  line-height: .75em;
+  font-family: 'Coiny', cursive;
+}
+.infoSmall{
+  font-size: 1.5em;
+  line-height: .75em;
+  font-family: 'Coiny', cursive;
 }
 .hereWhy{
+  font-size: 1.25em;
   font-family: 'Quicksand', sans-serif;
 }
 .pairCat{
@@ -57,16 +79,49 @@ nav a{
   margin: 1em;
 }
 .fluffHead{
+  text-align: center;
+  font-size: 2em;
+  line-height: .95em;
   font-family: 'Coiny', cursive;
 }
+.fluffPara{
+  font-size: 1.25em;
+  text-align: left;
+  font-family: 'Quicksand', sans-serif;
+}
 .pruneHead{
+  text-align: center;
+  font-size: 2em;
+  line-height: .95em;
+  font-family: 'Coiny', cursive;
+}
+.prunePara{
+  font-size: 1.25em;
+  text-align: left;
+  font-family: 'Quicksand', sans-serif;
+}
+.adoptHead{
+  text-align: right;
+  font-size: 2.5em;
+  line-height: .95em;
+  font-family: 'Coiny', cursive;
+}
+.adoptMe{
+  margin: auto;
+  width: 100%
+  height: auto;
+}
+.imLonely{
+  text-align: left;
+  font-size: 2.5em;
+  line-height: .95em;
   font-family: 'Coiny', cursive;
 }
 
 #page {
   padding: 0 2em 2em 2em;
   display: grid;
-  grid-template-columns: 200px 1fr 1fr 200px;
+  grid-template-columns: 300px 1fr 1fr 300px;
   grid-gap: 2em;
   text-align: center;
   align-items: center;
@@ -89,6 +144,11 @@ nav a{
 .adopt {grid-area: text3;}
 .adoptMe {grid-area: img3;}
 .lonely {grid-area: text4;}
+
+footer{
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+}
 
 /*h1, h2, h3, h4, h5, h6 {
   margin: 0;
