@@ -22,7 +22,6 @@ nav a{
 
 }
 h1{
-  grid-area: head;
   font-family: "Sigmar One", serif;
   font-size: 2em;
 }
@@ -34,7 +33,7 @@ h2{
   color: #FFF;
   text-align: center;
   font-size: 1.2em;
-  padding-bottom: .25em;
+/*  padding-bottom: .25em; */
 
 }
 #page {
@@ -45,15 +44,13 @@ h2{
   text-align: center;
   align-items: center;
   grid-template-areas:
-  "head head one one"
-  "pair1 pair1 info info"
-  "img1 text1 text2 img2"
-  "text3 img3 img3 text4"
+    "head head one one"
+    "pair1 pair1 info info"
+    "img1 text1 text2 img2"
+    "text3 img3 img3 text4"
   ;
 }
-#page div {
-  grid-area: name;
-}
+
 
 .main-title {grid-area: head;}
 .headImg {grid-area: one;}
